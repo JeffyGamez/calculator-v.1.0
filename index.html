@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python-like Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator-container">
+        <h1>Simple Python-like Calculator</h1>
+        <p>Accepted operations: +, -, *, /</p>
+
+        <div class="input-group">
+            <label for="num1">First Number:</label>
+            <input type="number" id="num1" placeholder="Enter first number">
+        </div>
+
+        <div class="input-group">
+            <label for="operation">Operation:</label>
+            <input type="text" id="operation" placeholder="+ - * /">
+        </div>
+
+        <div class="input-group">
+            <label for="num2">Second Number:</label>
+            <input type="number" id="num2" placeholder="Enter second number">
+        </div>
+
+        <button id="calculateBtn">Calculate</button>
+
+        <div class="result-area">
+            <p id="resultDisplay"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
